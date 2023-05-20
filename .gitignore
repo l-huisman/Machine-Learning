@@ -11,3 +11,6 @@
 # Datasets
 *.csv
 *.data
+
+# Models
+*.h5
