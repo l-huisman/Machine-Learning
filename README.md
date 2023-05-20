@@ -66,3 +66,7 @@ K-Means Clustering is an unsupervised machine learning algorithm. An unsupervise
 
 1. Data assignment step: Each data point is assigned to the cluster with the nearest centroid.
 2. Centroid update step: The centroids are updated by taking the average of all data points assigned to that cluster.
+
+## Image Classification
+
+Image classification is a supervised learning problem: define a set of target classes (objects to identify in images), and train a model to recognize them using labeled example photos. Early computer vision models relied on raw pixel data as the input to the model. Modern deep learning models, in contrast, learn feature extraction on their own, from raw images. This is called representation learning. The features learned by a deep learning model are more abstract than those learned by models trained on raw pixel data. This means that deep learning models require far fewer training samples to learn the task. This is called transfer learning.
