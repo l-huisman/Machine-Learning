@@ -110,7 +110,7 @@ with open("test.txt", encoding="utf-8") as f:
         encode = keras.preprocessing.sequence.pad_sequences(
             [encode], value=word_index["<PAD>"], padding="post", maxlen=250
         )
-        predict = model.predict(encode)
+        predict = model.predict(encode) # type: ignore
         print(line)
         print(encode)
         print(predict[0])
