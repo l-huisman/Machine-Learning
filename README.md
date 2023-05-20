@@ -47,3 +47,15 @@ This is a repository for my machine learning projects and is based on the video 
 ### Before you can run the knn project, you will need to add the following text to the top of the dataset file
 
 * `Header`: buying,maint,door,persons,lug_boot,safety,class
+
+## Linear Regression
+
+Linear regression is a linear approach to modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables). The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is called multiple linear regression. This term is distinct from multivariate linear regression, where multiple correlated dependent variables are predicted, rather than a single scalar variable.
+
+## K-Nearest Neighbors
+
+K-Nearest Neighbors is a supervised machine learning algorithm that can be used to solve both classification and regression problems. It is a lazy learning algorithm that stores all instances corresponding to training data in n-dimensional space. To make a prediction for a new data point, the algorithm finds the closest data points in the training data set — its "nearest neighbors."
+
+## Support Vector Machines
+
+Support Vector Machines (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However, it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.

@@ -20,8 +20,8 @@ cls = le.fit_transform(list(data["class"]))
 print(buying)
 
 # Creating the features and labels
-X = list(zip(buying, maint, door, persons, lug_boot, safety)) # type: ignore
-y = list(cls) # type: ignore
+X = list(zip(buying, maint, door, persons, lug_boot, safety))  # type: ignore
+y = list(cls)  # type: ignore
 
 
 # Splitting the data into training and testing data
@@ -43,7 +43,14 @@ names = ["unacc", "acc", "good", "vgood"]
 
 # Printing the predicted values
 for x in range(len(predicted)):
-    print("Predicted: ", names[predicted[x]], "Data: ", x_test[x], "Actual: ", names[y_test[x]])
+    print(
+        "Predicted: ",
+        names[predicted[x]],
+        "Data: ",
+        x_test[x],
+        "Actual: ",
+        names[y_test[x]],
+    )
     # Neighbors
-    n = model.kneighbors([x_test[x]], 9, True) # type: ignore
+    n = model.kneighbors([x_test[x]], 9, True)  # type: ignore
     print("N: ", n)
