@@ -69,3 +69,7 @@ K-Means Clustering is an unsupervised machine learning algorithm. An unsupervise
 ## Image Classification
 
 Image classification is a supervised learning problem: define a set of target classes (objects to identify in images), and train a model to recognize them using labeled example photos. Early computer vision models relied on raw pixel data as the input to the model. Modern deep learning models, in contrast, learn feature extraction on their own, from raw images. This is called representation learning. The features learned by a deep learning model are more abstract than those learned by models trained on raw pixel data. This means that deep learning models require far fewer training samples to learn the task. This is called transfer learning.
+
+## Text Classification
+
+Text classification is the process of assigning tags or categories to text according to its content. It’s one of the fundamental tasks in Natural Language Processing (NLP) with broad applications such as sentiment analysis, topic labeling, spam detection, and intent detection. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. In this project, we will use machine learning to classify text.
