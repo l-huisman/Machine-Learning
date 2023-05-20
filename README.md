@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a repository for my machine learning projects.
+This is a repository for my machine learning projects and is based on the video tutorial series by [Tech With Tim](https://www.youtube.com/playlist?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr).
 
 ## Projects
 
