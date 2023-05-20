@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a repository for my machine learning projects and is based on the video tutorial series by [Tech With Tim](https://www.youtube.com/playlist?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr).
+This is a repository for my machine learning projects and is based on the video tutorial series by [Tech With Tim](https://www.youtube.com/@TechWithTim).
 
 ## Projects
 
@@ -31,7 +31,6 @@ This is a repository for my machine learning projects and is based on the video 
 
 * `linear_regression`: [student-mat.csv](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
 * `KNN`: [car.data](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
-* `SVM`: [car.data](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
 
 ## Notes
 
