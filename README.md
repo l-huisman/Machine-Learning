@@ -63,3 +63,6 @@ Support Vector Machines (SVM) is a supervised machine learning algorithm which c
 ## K-Means Clustering
 
 K-Means Clustering is an unsupervised machine learning algorithm. An unsupervised learning algorithm is one that does not require labelled data. Instead of labelled data, it works with unlabelled data that it tries to make sense of by extracting features and patterns on its own. K-Means Clustering is a type of clustering algorithm. Clustering algorithms are used to group similar data points together. In K-Means Clustering, we group data points into k clusters. The number of clusters, k, is specified by the user. The algorithm then assigns each data point to one of the k clusters. The goal of the algorithm is to minimize the sum of distances between the data points and their respective cluster centroid. The cluster centroid is the arithmetic mean of all the data points belonging to the cluster. The algorithm iterates through two steps until it converges:
+
+1. Data assignment step: Each data point is assigned to the cluster with the nearest centroid.
+2. Centroid update step: The centroids are updated by taking the average of all data points assigned to that cluster.
