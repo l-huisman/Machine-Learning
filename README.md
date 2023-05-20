@@ -35,6 +35,15 @@ This is a repository for my machine learning projects and is based on the video 
 
 ## Notes
 
-Before you can run the knn and svm projects, you will need to add the following text to the top of the file:
+### To train the linear regression model, you will need to uncomment the for loop to do this remove the triple quotes from the following lines
+
+* `Line 26`
+* `Line 47`
+
+**Note:** This will loop 1000 times so it will take a while to train the model
+
+**Note:** Remember to comment them again after training the model or it will loop 1000 times every time you run the file
+
+### Before you can run the knn and svm projects, you will need to add the following text to the top of the file
 
 * `Header`: buying,maint,door,persons,lug_boot,safety,class
