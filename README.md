@@ -59,3 +59,7 @@ K-Nearest Neighbors is a supervised machine learning algorithm that can be used 
 ## Support Vector Machines
 
 Support Vector Machines (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However, it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.
+
+## K-Means Clustering
+
+K-Means Clustering is an unsupervised machine learning algorithm. An unsupervised learning algorithm is one that does not require labelled data. Instead of labelled data, it works with unlabelled data that it tries to make sense of by extracting features and patterns on its own. K-Means Clustering is a type of clustering algorithm. Clustering algorithms are used to group similar data points together. In K-Means Clustering, we group data points into k clusters. The number of clusters, k, is specified by the user. The algorithm then assigns each data point to one of the k clusters. The goal of the algorithm is to minimize the sum of distances between the data points and their respective cluster centroid. The cluster centroid is the arithmetic mean of all the data points belonging to the cluster. The algorithm iterates through two steps until it converges:
