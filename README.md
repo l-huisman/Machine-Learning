@@ -44,6 +44,6 @@ This is a repository for my machine learning projects and is based on the video 
 
 **Note:** Remember to comment them again after training the model or it will loop 1000 times every time you run the file
 
-### Before you can run the knn and svm projects, you will need to add the following text to the top of the file
+### Before you can run the knn project, you will need to add the following text to the top of the dataset file
 
 * `Header`: buying,maint,door,persons,lug_boot,safety,class
