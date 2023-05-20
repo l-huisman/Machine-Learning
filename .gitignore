@@ -1,0 +1,9 @@
+# Visual Studio Code 
+.vscode/
+
+# Pickle files
+*.pkl
+*.pickle
+
+# Mac OS
+.DS_Store
