@@ -127,7 +127,7 @@ def chat():
             for tg in intents["intents"]:
                 if tg["tag"] == tag:
                     responses = tg["responses"]
-            print(random.choice(responses))
+            print(random.choice(responses)) # type: ignore
         else:
             print("I didn't get that, try again.")
 
