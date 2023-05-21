@@ -1,0 +1,77 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "What should I call you",
+                "Who are you"
+            ],
+            "responses": [
+                "My name is Chatty",
+                "You can call me Chatty",
+                "I'm Chatty"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me",
+                "Give me a hand please",
+                "Can you help",
+                "What can you do for me"
+            ],
+            "responses": [
+                "I can help you with your problems",
+                "I can help you with that",
+                "I can do that for you"
+            ],
+            "context_set": ""
+        }
+    ]
+}
