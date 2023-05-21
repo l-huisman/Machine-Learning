@@ -14,3 +14,9 @@
 
 # Models
 *.h5
+
+# Tflearn files
+checkpoint
+*.tflearn.data-00000-of-00001
+*.tflearn.index
+*.tflearn.meta
