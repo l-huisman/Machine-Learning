@@ -13,7 +13,7 @@ data = yf.download(ticker, start="2023-01-01", end="2023-04-01")
 # Prepare the data
 data = data.dropna()
 X = np.array(range(len(data))).reshape(-1, 1)
-y = data["Adj Close"].values.reshape(-1, 1)
+y = data["Adj Close"].values.reshape(-1, 1) # type: ignore
 
 # Splitting the data into training and testing data
 x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(
