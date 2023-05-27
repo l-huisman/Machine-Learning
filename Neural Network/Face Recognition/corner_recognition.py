@@ -12,7 +12,7 @@ if os.path.exists(image_path) == False:
 img = cv2.imread("images/mondrian.png")
 
 # Half the size of the image
-img = cv2.resize(img, (0, 0), fx=0.5, fy=0.5)
+img = cv2.resize(img, (0, 0), fx=0.5, fy=0.5) # type: ignore
 
 # Convert to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -24,7 +24,7 @@ cv2.imshow("Grayscale", gray)
 corners = cv2.goodFeaturesToTrack(gray, 100, 0.01, 10) # 100: max corners, 0.01: quality, 10: min distance
 
 # Convert to integers
-corners = np.int0(corners)
+corners = np.int0(corners) # type: ignore
 
 # Draw circles around the corners
 for corner in corners:
